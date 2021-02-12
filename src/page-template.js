@@ -71,13 +71,16 @@ const generatePage = templateData => {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" />
     </head>
     <body>
-        <section class="hero is-primary is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title">My New Team Profile</h1>
-                </div>
-            </div>
-        </section>
+    <section class="hero is-link">
+    <div class="hero-body">
+      <p class="title">
+       My New Team
+      </p>
+      <p class="subtitle">
+        Profiles
+      </p>
+    </div>
+  </section>
         <main class="m-6">
             <div class="columns is-flex is-flex-wrap-wrap is-flex-direction-row is-justify-content-center">
                 ${addEmployee(templateData)}
